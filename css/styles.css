@@ -20,10 +20,10 @@ body {
   font-size: 14px;
   line-height: 1.2;
   display: flex;
+  align-items: center;
 }
 
 .logo {
-  margin: 24px 93px 25px 215px;
 }
 
 .navigation {
@@ -38,7 +38,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
 }
 .link-contact {
   font-weight: 500;
@@ -46,7 +46,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #757575;
-  margin: 32px 20px 32px 376px;
 }
 
 .link-contact:focus,

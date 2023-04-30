@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>goit-markup-hw-02</title>
+    <title>goit-markup-hw-03</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow" />
-    <meta name="description" content="homework2" />
+    <meta name="description" content="homework3" />
     <!-- ICON -->
     <link rel="icon" href="./images/goit.png" type="image/gif" sizes="16x16" />
     <!-- CSS LINK -->
@@ -20,131 +20,180 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <!-- NAV BAR -->
     <header class="header">
-      <a class="link" class="logo" href="index.html">WebStudio</a>
-      <nav class="navigation">
-        <ul class="nav-links">
-          <li><a class="link" href="studio.html" target="_blank">Studio</a></li>
+      <div class="container header-container">
+        <nav class="nav-menu">
+          <a class="logo logo-header" href="./index.html"
+            ><span class="logo logo-accent">Web</span>Studio</a
+          >
+          <ul class="list nav-list">
+            <li>
+              <a class="nav-list-item current" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="nav-list-item" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="nav-list-item" href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul class="list contacts-list">
           <li>
-            <a class="link" href="portfolio.html" target="_blank">Portfolio</a>
+            <a class="contacts-list-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="link" href="contacts.html" target="_blank">Contacts</a>
+            <a class="contacts-list-item" href="tel:+12127724150"
+              >+1 212-772-4150</a
+            >
           </li>
         </ul>
-      </nav>
-      <a class="link-contact" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="link-contact" href="tel:+12127724150">+1 212-772-4150</a>
+      </div>
     </header>
+
     <main>
       <!-- HERO -->
-      <section class="hero">
-        <h1>
-          EFFECTIVE SOLUTIONS FOR <br />
-          YOUR BUSINESS
-        </h1>
-        <button type="button">Request our service</button>
+      <section class="hero-section">
+        <div class="container hero-container">
+          <h1 class="h1 hero-title">
+            Effective Solutions for <br />
+            Your Business
+          </h1>
+          <button class="hero-btn" type="button">Request our service</button>
+        </div>
       </section>
 
-      <!-- SKILLS -->
-      <section class="skills">
-        <ul>
-          <li>
-            <h3>ATTENTION TO DETAILS</h3>
-            <p>
-              We go into all the details and processes of your business to
-              develop a customized solution.
-            </p>
-          </li>
-          <li>
-            <h3>PUNCTUALITY</h3>
-            <p>
-              With us, you can feel safe and secure. An important principle of
-              the company: respect your time and deadlines.
-            </p>
-          </li>
-          <li>
-            <h3>PLANNING</h3>
-            <p>
-              You will be able to observe and participate in every phase of
-              solution development and implementation.
-            </p>
-          </li>
-          <li>
-            <h3>MODERN TECHNOLOGIES</h3>
-            <p>
-              We use innovative tools to solve assigned tasks. It's time to
-              simplify work processes.
-            </p>
-          </li>
-        </ul>
+      <!-- SECTION-ADVANTAGES -->
+      <section class="section-top">
+        <div class="container">
+          <h2 class="h2 visually-hidden">Advantages</h2>
+          <ul class="list advantages-list">
+            <li class="advantages-list-item">
+              <h3 class="h3">ATTENTION TO DETAILS</h3>
+              <p class="advantages-description">
+                We go into all the details and processes of your business to
+                develop a customized solution.
+              </p>
+            </li>
+            <li class="advantages-list-item">
+              <h3 class="h3">PUNCTUALITY</h3>
+              <p class="advantages-description">
+                With us, you can feel safe and secure. An important principle of
+                the company: respect your time and deadlines.
+              </p>
+            </li>
+            <li class="advantages-list-item">
+              <h3 class="h3">PLANNING</h3>
+              <p class="advantages-description">
+                You will be able to observe and participate in every phase of
+                solution development and implementation.
+              </p>
+            </li>
+            <li class="advantages-list-item">
+              <h3 class="h3">MODERN TECHNOLOGIES</h3>
+              <p class="advantages-description">
+                We use innovative tools to solve assigned tasks. It's time to
+                simplify work processes.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- SECTION-SERVICES -->
+      <section class="section-top section-bottom">
+        <div class="container">
+          <h2 class="h2 services-title">What we do</h2>
+          <ul class="list services-list">
+            <li class="services-list-item">
+              <img src="./images/img.jpg" alt="work hard" width="400" />
+            </li>
+            <li class="services-list-item">
+              <img src="./images/img2.jpg" alt="mobile first" width="400" />
+            </li>
+            <li class="services-list-item">
+              <img src="./images/img3.jpg" alt="choose color" width="400" />
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <!-- WHAT WE DO -->
-      <section class="what-we-do">
-        <h2>What we do</h2>
-        <ul>
-          <li><img src="./images/img.jpg" alt="hard work" width="400" /></li>
-          <li>
-            <img src="./images/img2.jpg" alt="mobile responsive" width="400" />
-          </li>
-          <li>
-            <img src="./images/img3.jpg" alt="color adjustment" width="400" />
-          </li>
-        </ul>
-      </section>
-
-      <!-- OUR TEAM -->
-      <section class="our-team">
-        <h2>Our Team</h2>
-
-        <ul>
-          <li>
-            <img
-              src="./images/img4.jpg"
-              alt="Christopher Walker"
-              width="400"
-            /><br />
-            <span>Christopher Walker </span><br />
-            <em>Product Designer</em>
-          </li>
-
-          <li>
-            <img src="./images/img5.jpg" alt="Kylie Evans" width="400" /><br />
-            <span> Kylie Evans</span><br />
-            <em>Frontend Developer</em>
-          </li>
-
-          <li>
-            <img src="./images/img6.jpg" alt="Ryan Harris" width="400" /><br />
-            <span>Ryan Harris</span> <br />
-            <em>Marketing</em>
-          </li>
-
-          <li>
-            <img src="./images/img7.jpg" alt="Tyler Moore" width="400" /><br />
-            <span>Tyler Moore</span> <br />
-            <em>UI Designer</em>
-          </li>
-        </ul>
+      <!-- SECTION-TEAM -->
+      <section class="section-top section-bottom team-section">
+        <div class="container">
+          <h2 class="h2 team-title">Our Team</h2>
+          <ul class="list team-list">
+            <li class="team-list-item">
+              <img
+                src="./images/img4.jpg"
+                alt="a photo of Christopher Walker"
+              />
+              <div class="team-card-wrapper">
+                <h4 class="h4 team-name">Christopher Walker</h4>
+                <p class="team-position">Product Designer</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                src="./images/img5.jpg"
+                alt="a photo of Kylie Evans"
+                width="264"
+              />
+              <div class="team-card-wrapper">
+                <h4 class="h4 team-name">Kylie Evans</h4>
+                <p class="team-position">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                src="./images/img6.jpg"
+                alt="a photo of Ryan Harris"
+                width="264"
+              />
+              <div class="team-card-wrapper">
+                <h4 class="h4 team-name">Ryan Harris</h4>
+                <p class="team-position">Marketing</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                src="./images/img7.jpg"
+                alt="a photo of Tyler Moore"
+                width="264"
+              />
+              <div class="team-card-wrapper">
+                <h4 class="h4 team-name">Tyler Moore</h4>
+                <p class="team-position">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- FOOTER -->
     <footer class="footer">
-      <a class="link" href="index.html">WebStudio</a>
-      <br />
-      <address>695 Park Ave, NY 10065, USA</address>
-      <br />
-      <a class="link-contact" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <br />
-      <a class="link-contact" href="tel:+12127724150">+1 212-772-4150</a>
+      <div class="container">
+        <a class="logo logo-footer" href="./index.html"
+          ><span class="logo-accent">Web</span>Studio</a
+        >
+        <address class="footer-address">695 Park Ave, NY 10065, USA</address>
+
+        <ul class="list footer-contacts-list">
+          <li>
+            <a class="contacts-list-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contacts-list-item" href="tel:+11(000)1111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

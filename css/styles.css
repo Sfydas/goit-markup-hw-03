@@ -276,8 +276,9 @@ body {
 .h1 {
   color: var(--color-primary-background);
   font-size: var(--font-size-h1);
-  font-weight: var(--font-weight-bold);
   line-height: var(--line-height-h1);
+  font-weight: 900;
+  letter-spacing: var(--letter-spacing-secondary);
 }
 
 .h2 {
